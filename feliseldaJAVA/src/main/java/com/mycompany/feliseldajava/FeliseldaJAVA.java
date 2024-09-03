@@ -102,6 +102,25 @@ public class FeliseldaJAVA {
                     else
                     {
                         System.out.println("Invalid input. Please try again.");
+                        
+                        int tot;
+                        tot = pia;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                     }
                 }
                 else if (c3==2)
@@ -127,7 +146,26 @@ public class FeliseldaJAVA {
                 }
                 else
                 {
-                    System.out.println("Invalid input. Please try again.");
+                    System.out.println("Invalid input.");
+                    
+                    int tot;
+                        tot = pia;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                 }
                 
             }
@@ -201,7 +239,26 @@ public class FeliseldaJAVA {
                     }
                     else
                     {
-                        System.out.println("Invalid input. Please try again.");
+                        System.out.println("Invalid input.");
+                        
+                        int tot;
+                        tot = nova;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                     }
                 }
                 else if (c3==2)
@@ -227,7 +284,26 @@ public class FeliseldaJAVA {
                 }
                 else
                 {
-                    System.out.println("Invalid input. Please try again.");
+                    System.out.println("Invalid input.");
+                        
+                        int tot;
+                        tot = nova;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                 }
                 
             }
@@ -313,7 +389,26 @@ public class FeliseldaJAVA {
                     }
                     else
                     {
-                        System.out.println("Invalid input. Please try again.");
+                        System.out.println("Invalid input.");
+                        
+                        int tot;
+                        tot = coke;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                     }
                 }
                 else if (c3==2)
@@ -339,7 +434,26 @@ public class FeliseldaJAVA {
                 }
                 else
                 {
-                    System.out.println("Invalid input. Please try again.");
+                    System.out.println("Invalid input.");
+                        
+                        int tot;
+                        tot = coke;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                 }
             }
             else if (c2==2)
@@ -411,7 +525,26 @@ public class FeliseldaJAVA {
                     }
                     else
                     {
-                        System.out.println("Invalid input. Please try again.");
+                        System.out.println("Invalid input.");
+                        
+                        int tot;
+                        tot = water;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                     }
                 }
                 else if (c3==2)
@@ -437,7 +570,26 @@ public class FeliseldaJAVA {
                 }
                 else
                 {
-                    System.out.println("Invalid input. Please try again.");
+                    System.out.println("Invalid input.");
+                        
+                        int tot;
+                        tot = water;
+                        System.out.println("Your total is " + tot);
+                        System.out.println("Enter your cash: ");
+                        int csh = input.nextInt();
+                    
+                        while (csh<tot)
+                        {
+                            System.out.println("Try again.");
+                            System.out.println("Enter your cash: ");
+                            csh = input.nextInt();
+                        }
+                        if (csh>=tot)
+                        {
+                            int chng;
+                            chng = csh - tot;
+                            System.out.println("Change is: "+ chng);
+                        }
                 }
             }
             else
