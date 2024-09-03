@@ -98,7 +98,11 @@ public class FeliseldaJAVA {
                                 chng = csh - tot;
                                 System.out.println("Change is: "+ chng);
                             }
-                    }   
+                    }
+                    else
+                    {
+                        System.out.println("Invalid input. Please try again.");
+                    }
                 }
                 else if (c3==2)
                 {
@@ -120,6 +124,10 @@ public class FeliseldaJAVA {
                             chng = csh - tot;
                             System.out.println("Change is: "+ chng);
                         }
+                }
+                else
+                {
+                    System.out.println("Invalid input. Please try again.");
                 }
                 
             }
@@ -166,7 +174,7 @@ public class FeliseldaJAVA {
                                 System.out.println("Change is: "+ chng);
                             }
                     }
-                    if (c4==2)
+                    else if (c4==2)
                     {
                         System.out.println("Water 27 pesos");
                         int coke, water;
@@ -191,6 +199,10 @@ public class FeliseldaJAVA {
                                 System.out.println("Change is: "+ chng);
                             }
                     }
+                    else
+                    {
+                        System.out.println("Invalid input. Please try again.");
+                    }
                 }
                 else if (c3==2)
                 {
@@ -213,10 +225,18 @@ public class FeliseldaJAVA {
                             System.out.println("Change is: "+ chng);
                         }
                 }
+                else
+                {
+                    System.out.println("Invalid input. Please try again.");
+                }
                 
             }
+            else
+            {
+                System.out.println("Invalid input. Please try again.");
+            }
         }
-        if (c1==2)
+        else if (c1==2)
         {
             System.out.println("[1] Coke = 25");
             System.out.println("[2] Water = 27");
@@ -266,7 +286,7 @@ public class FeliseldaJAVA {
                                 System.out.println("Change is: "+ chng);
                             }
                     }
-                    if (c4==2)
+                    else if (c4==2)
                     {
                         System.out.println("Nova 27 pesos");
                         int pia, nova;
@@ -291,6 +311,10 @@ public class FeliseldaJAVA {
                                 System.out.println("Change is: "+ chng);
                             }
                     }
+                    else
+                    {
+                        System.out.println("Invalid input. Please try again.");
+                    }
                 }
                 else if (c3==2)
                 {
@@ -313,8 +337,12 @@ public class FeliseldaJAVA {
                             System.out.println("Change is: "+ chng);
                         }
                 }
+                else
+                {
+                    System.out.println("Invalid input. Please try again.");
+                }
             }
-            if (c2==2)
+            else if (c2==2)
             {
                 System.out.println("Water 27 pesos");
                 int coke, water;
@@ -356,7 +384,7 @@ public class FeliseldaJAVA {
                                 System.out.println("Change is: "+ chng);
                             }
                     }
-                    if (c4==2)
+                    else if (c4==2)
                     {
                         System.out.println("Nova 13 pesos");
                         int pia, nova;
@@ -381,6 +409,10 @@ public class FeliseldaJAVA {
                                 System.out.println("Change is: "+ chng);
                             }
                     }
+                    else
+                    {
+                        System.out.println("Invalid input. Please try again.");
+                    }
                 }
                 else if (c3==2)
                 {
@@ -403,7 +435,19 @@ public class FeliseldaJAVA {
                             System.out.println("Change is: "+ chng);
                         }
                 }
+                else
+                {
+                    System.out.println("Invalid input. Please try again.");
+                }
             }
-        }        
+            else
+            {
+                System.out.println("Invalid input. Please try again.");
+            }
+        }
+        else
+        {
+            System.out.println("Invalid input. Please try again.");
+        }
     }
 }
